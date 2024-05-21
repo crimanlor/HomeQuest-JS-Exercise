@@ -1,0 +1,19 @@
+body {
+    color: #1C476B;
+}
+
+h1 {
+    background-color: rgba(74, 131, 49, 0.25);
+        }
+
+footer {
+    background-color: #1C476B;
+    color: #ffffff;
+    padding:30px;
+}
+
+li span {
+    color:#dc3644;
+    font-weight: bold;
+}
+
