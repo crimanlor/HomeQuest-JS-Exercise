@@ -6,15 +6,15 @@ This is a fictional web application for a real estate agency where users can nav
 
 ### showHouse()
 
-Retrieves the house object from the array of houses based on the `contador` variable and updates the image source to display the house image, and sets the inner HTML of houseInfoElement to include details.
+Retrieves the house object from the array of houses based on the `contador` variable and updates the image source to display the house image, and sets the inner HTML of `houseInfoElement` to include details.
 
 ### updateHouse()
 
-Its called when the user wants to view the next house in the list. Increments the `contador` variable by 1 and uses the operator modul `%` ensures that this variable wraps around to the beginnig of the houses array when it reaches the end. Then call `showHouse()`method to render the data.
+It is called when the user wants to view the next house in the list. Increments the `contador` variable by 1 and uses the operator module `%` to ensure that this variable wraps around to the beginning of the houses array when it reaches the end. Then calls `showHouse()`method to render the data.
 
 ### previousHouse()
 
-Its called when the user wants to view the previous house in the list. Decrements the `contador`variable by 1 add house lenght ensures that this variable is not a negative number, and again use the operator modul ensures that the `contador` wraps around to the end of the array when it reaches the beginning. Then call `showHouse()`method to render the data.
+It is called when the user wants to view the previous house in the list. Decrements the `contador`variable by 1, add house lenght ensures that this variable is not a negative number, and again uses the operator module to ensure that the `contador` wraps around to the end of the array when it reaches the beginning. Then call `showHouse()`method to render the data.
 
 ## Demo
 
